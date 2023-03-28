@@ -1,15 +1,15 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+name: Football1X2
+tools: [C#, Xamarin, Python, AWS Lambda, SQLite, Web Scraping]
+image: /feature_graphic_f1x2.png
 description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
 ---
 
-# The Movies Project
+# Football1X2 app
 
 The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+![preview](/logo_f1x2.png)
 
 ## Search Movies
 
