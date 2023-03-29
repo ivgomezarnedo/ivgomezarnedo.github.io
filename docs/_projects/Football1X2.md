@@ -5,16 +5,11 @@ image: /feature_graphic_f1x2.png
 description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
 ---
 
+<p class="text-left">
+{% include elements/button.html link="https://play.google.com/store/apps/details?id=com.produccionesgs.Football1X2" text="See on Google Play" %}
+</p>
+
 # Football1X2 app
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
-
-![preview](/logo_f1x2.png)
-
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
-</p>
+Link with Quiniela Perfect and explain WHY OF FOOTBALL1X2. 
+![preview](/feature_graphic_f1x2.png)
