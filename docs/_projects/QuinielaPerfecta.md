@@ -18,7 +18,19 @@ Its main features are:
 - Calculation of the expected value of La Quiniela.
 - Compare the statistics obtained for a Quiniela with those obtained for previous Quinielas.
 - Easily check the results of previous Quinielas, their prizes and number of winners.
+
 ![preview](/feature_graphic_3.png)
+
+### How it works?
+The app shows the current matchday’s Quiniela games with the odds (extracted from bookmakers) of the possible results (1-X-2).
+
+With this information, the most statistically probable Quiniela is calculated for the number of doubles and triples that the user selects (by default, 0 doubles and 0 triples). For each combination (number of doubles and number of triples), statistics are shown that summarise its odds, comparing them with historical data for equivalent Quinielas.
+
+In addition to the information for the Quinielas still to be played, the app also allows the user to check all the **Quinielas already played**, with their results and information about them:
+- Winning combination.
+- Revenue/Collection.
+- Number of winners and prize obtained for each possible number of correct answers (15–10 correct answers).
+- If the Quiniela had or not some kind of jackpot.
 
 <p class="text-center">
 {% include elements/button.html link="https://medium.com/@ivangomezarnedo/how-to-use-expected-value-in-a-lottery-ae868726dd1e" text="Learn More (English)" %}
@@ -29,6 +41,11 @@ Its main features are:
 
 ## Technical implementation
 
-INSERT TECHNICAL DIAGRAM
-EXPLAIN CODE
-XAMARIN?
+![technical_diagram](/Lambda-telegram-scraping-s3.jpg)
+Project built entirely using the [AWS Free Tier](https://aws.amazon.com/free/).
+- **Python**
+  - **BeautifulSoap**: Web scraping.
+  - **Fuzzy-search**: Teams could have different names in different bookmakers (i.e., *Real Madrid* and *R. Madrid*). Fuzzy-search have been used to univocally identify a match across several bookmakers.
+  - **Sklearn**: To predict the revenue/collection of the Quiniela. Historical data has been used to train the model. 
+- **SQLite**: Way more cheaper than using AWS Aurora. 
+- **C# + Xamarin**: Mobile app. 95% of the code equal for Android and IOS. 
