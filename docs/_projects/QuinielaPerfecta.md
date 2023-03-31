@@ -2,7 +2,8 @@
 name: Quiniela Perfecta
 tools: [C#, Xamarin, Python, AWS Lambda, SQLite, Web Scraping]
 image: /feature_graphic_3.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: Quiniela Perfecta is an app that provides detailed information about the spanish Quiniela games and calculates the statistically probable Quiniela's by calculating the best possible combination using real win, draw, and loss percentages from multiple bookmakers. It also calculates the expected value of a Quiniela, compares statistics with previous Quinielas, and allows users to check previous results and prizes.
+
 ---
 
 <p class="text-left">

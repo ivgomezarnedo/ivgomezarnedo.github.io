@@ -2,11 +2,11 @@
 name: Football1X2
 tools: [C#, Xamarin, Python, AWS Lambda, SQLite, Web Scraping]
 image: /feature_graphic_f1x2.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: Football1X2 is an app that aggregates and presents updated match information for over 10 top leagues. The app collects data from over a dozen trusted bookmakers to provide insights into the predicted outcomes of football matches.
 ---
 
 <p class="text-left">
-{% include elements/button.html link="https://play.google.com/store/apps/details?id=com.produccionesgs.Football1X2" text="See on Google Play" %}
+{% include elements/button.html link="https://play.google.com/store/apps/details?id=com.produccionesgs.Football1X2" text="Google Play" %}
 </p>
 
 # Football1X2 app
