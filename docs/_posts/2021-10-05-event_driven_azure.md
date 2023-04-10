@@ -3,6 +3,7 @@ title: Event-driven architecture with Azure Eventgrid (Databricks-Azure Data Fac
 tags: [Architecture, Azure, Databricks, Azure Data Factory, Azure Eventgrid]
 style: border
 color: primary
+external_url: https://medium.com/plumbersofdatascience/event-driven-architecture-with-azure-eventgrid-databricks-azure-data-factory-78055409712e
 description: A step by step guide on how to build an Event-driven architecture in Azure.
 ---
 

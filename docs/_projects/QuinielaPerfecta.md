@@ -40,6 +40,10 @@ In addition to the information for the Quinielas still to be played, the app als
 {% include elements/button.html link="https://medium.com/@ivangomezarnedo/how-to-use-expected-value-in-a-lottery-ae868726dd1e" text="Learn More (Spanish)" %}
 </p>
 
+
+![Quiniela_perfecta video](/qp_app.mp4)
+
+
 ## Technical implementation
 
 ![technical_diagram](/Lambda-telegram-scraping-s3.jpg)
