@@ -1,17 +1,33 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Data Engineer, DeNexus, US-Remote
+  from: September 2021
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Designed,implemented and deployed (AWS + Databricks) a Data
+               Platform from scratch. Created a data catalog to facilitate access to data in the data
+               lake and used MLflow to deploy models that previously ran locally.
+               Developed data pipelines that extracted and processed data from
+               several sources customer facilities, web pages (web scraping), syslog
+               servers, public APIs... and uploaded them to the Data Lake.
+               Configured and deployed FluentD containers to collect and process
+               syslog data and to launch REST endpoints to gather data.
+
+- title: Data Engineer, BASF, Madrid
+  from: March 2020
+  to: September 2021
+  description: Automated and orchestrated ETL processes across billions of rows of
+               data which increased replication frequency from daily to hourly.
+               Number of daily failed jobs decreased by 90%. Built data pipelines that replicated data from more than 20 source
+               systems (SAP,Salesforce, APIs, RDBMS, Kafka…) into a Delta Lake.
+               Provided cloud environments and reliable data to more than 100
+               different teams. Number of data quality incidents decreased by 70%. Created a dedicated logging system for monitoring processes, generating customized alerts and allowing the consultation of
+               real-time statistics on all processes and the replication status of each table.
+
+- title: Consultant, Bosonit, Logroño
+  from: January 2017
+  to: March 2020
+  description: Contracts with Santander bank (Madrid, 1 year) and  Santander bank (London, 2 years).
+               Translated business needs into Spark/Hive/Impala code for the creation of an Anti Money Laundering (AML) tool.
+               Optimized and orchestrated existing data pipelines to decrease execution time by 50%. 
+               Configured and deployed on premise Cloudera clusters with a S3-based Data Lake (Scality).
+               Built, orchestrated and optimized several data pipelines for the creation of a credit risk forecast model.
+
+

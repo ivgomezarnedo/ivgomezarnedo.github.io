@@ -13,8 +13,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Certifications" source=site.data.other-skills %}
+
 </div>
+<h2 class="mb-3">Experience</h2>
 
 <div class="row">
 {% include about/timeline.html %}
+</div>
+
+<h2 class="mb-3">Education</h2>
+
+<div class="row">
+{% include about/timeline_education.html %}
 </div>
