@@ -1,14 +1,12 @@
 - title: Data Engineer, DeNexus, US-Remote
   from: September 2021
   to: present
-  description: Designed,implemented and deployed (AWS + Databricks) a Data
-               Platform from scratch. Created a data catalog to facilitate access to data in the data
-               lake and used MLflow to deploy models that previously ran locally.
-               Developed data pipelines that extracted and processed data from
-               several sources customer facilities, web pages (web scraping), syslog
-               servers, public APIs... and uploaded them to the Data Lake.
-               Configured and deployed FluentD containers to collect and process
-               syslog data and to launch REST endpoints to gather data.
+  description: "One man army role. 
+               [Designed, implemented, and deployed](https://medium.com/@ivangomezarnedo/building-our-data-platform-why-we-are-not-using-data-integration-tools-d57bdbfd503b) a Data Platform from scratch using [AWS and Databricks](https://medium.com/@ivangomezarnedo/building-our-data-platform-why-we-have-chosen-databricks-over-snowflake-3b26ffb1c282).
+               Delta Lake and MLflow utilized to provide reliable and versioned data to models, with Silver and Golden tables ensuring data consistency.
+               Creation of a Data Catalog to facilitate access to the Data Lake tables (>100 created), such as MITRE, CVEs, Threat Actors, anonymized customer data...
+               This role involved end-to-end data management, from developing connectors (APIs, Web Scraping, Syslog, GitHub...) for data extraction to transformation, table creation, and data modeling , while ensuring the security and confidentiality of sensitive data."
+
 
 - title: Data Engineer, BASF, Madrid
   from: March 2020
@@ -30,4 +28,4 @@
                Configured and deployed on premise Cloudera clusters with a S3-based Data Lake (Scality).
                Built, orchestrated and optimized several data pipelines for the creation of a credit risk forecast model.
 
-
+#https://vimeo.com/691165467#t=1924s

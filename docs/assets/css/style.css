@@ -470,3 +470,30 @@ body { font-family: "Poppins", sans-serif; }
 [data-theme="dark"] .list-group-item-action:hover, [data-theme="dark"] .list-group-item-action:focus { background-color: #1d1d1e; }
 [data-theme="dark"] .post footer { text-decoration: none; }
 [data-theme="dark"] .timeline-body .timeline-item:after { background-color: #17191a; }
+
+/* Skills list */
+/* Reset default list styles */
+/*
+.nice-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style each list item *//*
+.nice-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: lightblue;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+*/
+/* Add custom bullet (e.g., arrow) before each item *//*
+.nice-list li::before {
+  content: "→";
+  margin-right: 10px;
+  font-weight: bold;
+  color: navy;
+}
+*/
