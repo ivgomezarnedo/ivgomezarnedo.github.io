@@ -11,6 +11,7 @@ description: Quiniela Perfecta is an app that provides detailed information abou
 </p>
 
 # Quiniela Perfecta app
+
 Quiniela Perfecta is a [free Android app](http://play.google.com/store/apps/details?id=com.produccionesgs.quinielaperfecta) (IOS version coming soon) that shows detailed information about the [spanish Quiniela](https://www.loteriasyapuestas.es/en/centro-de-ayuda/como-se-juega/como-jugar-a-la-quiniela), both current (available for betting) and historical (already finished).
 
 Its main features are:
@@ -20,28 +21,42 @@ Its main features are:
 - Compare the statistics obtained for a Quiniela with those obtained for previous Quinielas.
 - Easily check the results of previous Quinielas, their prizes and number of winners.
 
-![preview](/feature_graphic_3.png)
+![preview](/feature_graphic_4.png)
+<br>
 
+{% capture heading %}
 ### How it works?
+
+{% endcapture %}
+
+{% capture description %}
 The app shows the current matchday’s Quiniela games with the odds (extracted from bookmakers) of the possible results (1-X-2).
 
-With this information, the most statistically probable Quiniela is calculated for the number of doubles and triples that the user selects (by default, 0 doubles and 0 triples). For each combination (number of doubles and number of triples), statistics are shown that summarise its odds, comparing them with historical data for equivalent Quinielas.
+  With this information, the most statistically probable Quiniela is calculated for the number of doubles and triples that the user selects (by default, 0 doubles and 0 triples). For each combination (number of doubles and number of triples), statistics are shown that summarise its odds, comparing them with historical data for equivalent Quinielas.
 
-In addition to the information for the Quinielas still to be played, the app also allows the user to check all the **Quinielas already played**, with their results and information about them:
-- Winning combination.
-- Revenue/Collection.
-- Number of winners and prize obtained for each possible number of correct answers (15–10 correct answers).
-- If the Quiniela had or not some kind of jackpot.
+  In addition to the information for the Quinielas still to be played, the app also allows the user to check all the **Quinielas already played**, with their results and information about them:
+  - Winning combination.
+  - Revenue/Collection.
+  - Number of winners and prize obtained for each possible number of correct answers (15–10 correct answers).
+  - If the Quiniela had or not some kind of jackpot.
+{% endcapture %}
 
-<p class="text-center">
-{% include elements/button.html link="https://medium.com/@ivangomezarnedo/how-to-use-expected-value-in-a-lottery-ae868726dd1e" text="Learn More (English)" %}
+<div class="content-container">
+  <div class="text-container">
+    {{ heading | markdownify }}
+    {{ description | markdownify }}
+    <br>
+  <p class="text-center">
+{% include elements/button.html link="https://medium.com/@ivangomezarnedo/how-to-use-expected-value-in-a-lottery-ae868726dd1e" text="Learn More" %}
 </p>
-<p class="text-center">
-{% include elements/button.html link="https://medium.com/@ivangomezarnedo/how-to-use-expected-value-in-a-lottery-ae868726dd1e" text="Learn More (Spanish)" %}
-</p>
+  </div>
+  <div class="gif-container">
+    {% raw %}<img src="/output.gif" alt="Quiniela_perfecta video">{% endraw %}
+  </div>
+</div>
 
 
-![Quiniela_perfecta video](/qp_app.mp4)
+
 
 
 ## Technical implementation

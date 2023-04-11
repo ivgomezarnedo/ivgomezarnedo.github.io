@@ -497,3 +497,25 @@ body { font-family: "Poppins", sans-serif; }
   color: navy;
 }
 */
+/* Container for the text and the GIF */
+.content-container {
+  display: flex;
+  align-items: center; /* Vertically align the text and the GIF */
+}
+
+/* Container for the text */
+.text-container {
+  flex: 1; /* Let the text container take up the available space */
+  margin-right: 20px; /* Add some space between the text and the GIF */
+}
+
+/* Container for the GIF */
+.gif-container {
+  max-width: 50%; /* Set the maximum width for the GIF container */
+}
+
+/* Style for the GIF image */
+.gif-container img {
+  width: 100%; /* Ensure the GIF fits the container */
+  height: auto; /* Maintain the aspect ratio */
+}
