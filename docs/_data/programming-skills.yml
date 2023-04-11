@@ -1,19 +1,9 @@
 - name: Python
-  percentage: 100
-  color: primary
 
 - name: SQL
-  percentage: 100
-  color: secondary
 
 - name: C#
-  percentage: 100
-  color: danger
 
 - name: Scala
-  percentage: 100
-  color: warning
 
 - name: Java
-  percentage: 100
-  color: info
