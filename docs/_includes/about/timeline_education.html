@@ -1,11 +1,11 @@
 <div class="col mt">
   <div class="timeline-body bg-themed">
-    {% for item in site.data.timeline %}
+    {% for item in site.data.timeline_education %}
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title }}</h2>
           <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
-          <p>{{ item.description }}</p>
+          <p>{{ item.description | markdownify }}</p>
         </div>
       </div>
     {% endfor %}

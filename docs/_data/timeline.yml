@@ -24,7 +24,7 @@
 - title: Consultant, Bosonit, Logroño
   from: January 2017
   to: March 2020
-  description: Contracts with Santander bank (Madrid, 1 year) and  Santander bank (London, 2 years).
+  description: Contracts with Santander bank (Madrid, 1 year) and  Santander UK bank (London, 2 years).
                Translated business needs into Spark/Hive/Impala code for the creation of an Anti Money Laundering (AML) tool.
                Optimized and orchestrated existing data pipelines to decrease execution time by 50%. 
                Configured and deployed on premise Cloudera clusters with a S3-based Data Lake (Scality).
