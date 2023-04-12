@@ -1,0 +1,39 @@
+- title: Data Engineer, DeNexus, US-Remote
+  from: September 2021
+  to: present
+  description: "One man army role. 
+               [Designed, implemented, and deployed](https://medium.com/@ivangomezarnedo/building-our-data-platform-why-we-are-not-using-data-integration-tools-d57bdbfd503b) a Data Platform from scratch using [AWS and Databricks](https://medium.com/@ivangomezarnedo/building-our-data-platform-why-we-have-chosen-databricks-over-snowflake-3b26ffb1c282).
+               Delta Lake and MLflow utilized to provide reliable and versioned data to models, with Silver and Golden tables ensuring data consistency.
+               Creation of a Data Catalog to facilitate access to the Data Lake tables (>100 created), such as MITRE, CVEs, Threat Actors, anonymized customer data...<br>
+               This role involved end-to-end data management, from developing connectors (APIs, Web Scraping, Syslog, GitHub...) for data extraction to transformation, table creation, and data modeling; while ensuring the security and confidentiality of sensitive data."
+
+
+- title: Data Engineer, BASF, Madrid
+  from: March 2020
+  to: September 2021
+  description: Automated and orchestrated ETL processes across billions of rows of
+               data which increased replication frequency from daily to hourly.
+               Number of daily failed jobs decreased by 90%.
+               Provided cloud environments and reliable data to more than 100
+               different teams. Number of data quality incidents decreased by 70%.
+               <br> Built data pipelines that replicated data from more than 20 source
+               systems (SAP,Salesforce, APIs, RDBMS, Kafka…) into a Delta Lake.<br>
+               Created a dedicated logging system for monitoring processes, generating customized alerts and allowing to query real-time statistics on all processes and the replication status of each table.
+
+- title: Consultant, Bosonit, Logroño+Madrid+London
+  from: January 2017
+  to: March 2020
+  description: Contracts with **Santander bank** (Madrid, 1 year) and  **Santander UK bank** (London + remote, 2 years).<br>
+               Translated business needs into Spark/Hive/Impala code for the creation of an Anti Money Laundering (AML) tool.
+               Optimized and orchestrated existing data pipelines to decrease execution time by 50%. 
+               Configured and deployed on premise Cloudera clusters with a S3-based Data Lake (Scality).
+               <br>Built, orchestrated and optimized several data pipelines for the creation of a credit risk forecast model.
+
+- title: Software Engineer, IT Service Universidad de La Rioja, Logroño
+  from: January 2016
+  to: December 2016
+  description: "As a sole developer, created a Java application for remote control, monitoring, and management of university computer classrooms.
+               Implemented real-time data processing using sockets, AWK, and regular expressions, as well as Powershell scripting with PStools and SNMP.
+               <br>This application was later expanded and refined for [my final degree project](https://www.unirioja.es/facultades_escuelas/fct/PremiosTFG/16_17/posterTFG_GII_Ivan_Gomez.pdf)."
+
+#https://vimeo.com/691165467#t=1924s
