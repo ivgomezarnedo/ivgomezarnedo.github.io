@@ -34,20 +34,12 @@ In addition to the information for the Quinielas still to be played, the app als
 - Number of winners and prize obtained for each possible number of correct answers (15–10 correct answers).
 - If the Quiniela had or not some kind of jackpot.
 
-<p class="text-center">
-{% include elements/button.html link="https://medium.com/@ivangomezarnedo/how-to-use-expected-value-in-a-lottery-ae868726dd1e" text="Learn More (English)" %}
-</p>
-<p class="text-center">
-{% include elements/button.html link="https://medium.com/@ivangomezarnedo/how-to-use-expected-value-in-a-lottery-ae868726dd1e" text="Learn More (Spanish)" %}
-</p>
-
-
-![Quiniela_perfecta video](/qp_app.mp4)
-
 
 ## Technical implementation
 
-![technical_diagram](/Lambda-telegram-scraping-s3.jpg)
+![technical_diagram](/Lambda-reddit-twitter-s3.drawio.png)
+
+
 Project built entirely using the [AWS Free Tier](https://aws.amazon.com/free/).
 - **Python**
   - **BeautifulSoap**: Web scraping.

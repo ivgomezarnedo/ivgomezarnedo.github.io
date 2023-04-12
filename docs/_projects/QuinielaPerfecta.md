@@ -64,6 +64,7 @@ The app shows the current matchday’s Quiniela games with the odds (extracted f
 ![technical_diagram](/Lambda-telegram-scraping-s3.jpg)
 Project built entirely using the [AWS Free Tier](https://aws.amazon.com/free/).
 - **Python**
+  - **AIOHTTP**: To perform HTTP requests asynchronously.
   - **BeautifulSoap**: Web scraping.
   - **Fuzzy-search**: Teams could have different names in different bookmakers (i.e., *Real Madrid* and *R. Madrid*). Fuzzy-search have been used to univocally identify a match across several bookmakers.
   - **Sklearn**: To predict the revenue/collection of the Quiniela. Historical data has been used to train the model. 
