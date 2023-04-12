@@ -25,7 +25,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Iván Gómez
-  image             : /ivan_mar_bien2.png
+  image             : /assets/images/ivan_mar_profile.png
 #  behance           : your_username
 # dribbble          : your_username
   email             : ivangomezarnedo@gmail.com

@@ -1,7 +1,7 @@
 ---
 name: Quiniela Perfecta
 tools: [C#, Xamarin, Python, AWS Lambda, SQLite, Web Scraping]
-image: /feature_graphic_3.png
+image: /assets/images/feature_graphic_qp_1.png
 description: Quiniela Perfecta is an app that provides detailed information about the spanish Quiniela games and calculates the statistically probable Quiniela's by calculating the best possible combination using real win, draw, and loss percentages from multiple bookmakers. It also calculates the expected value of a Quiniela, compares statistics with previous Quinielas, and allows users to check previous results and prizes.
 
 ---
@@ -21,7 +21,7 @@ Its main features are:
 - Compare the statistics obtained for a Quiniela with those obtained for previous Quinielas.
 - Easily check the results of previous Quinielas, their prizes and number of winners.
 
-![preview](/feature_graphic_4.png)
+![preview](/assets/images/feature_graphic_qp_2.png)
 <br>
 
 {% capture heading %}
@@ -51,7 +51,7 @@ The app shows the current matchday’s Quiniela games with the odds (extracted f
 </p>
   </div>
   <div class="gif-container">
-    {% raw %}<img src="/output.gif" alt="Quiniela_perfecta video">{% endraw %}
+    {% raw %}<img src="/assets/images/qp_usage.gif" alt="Quiniela_perfecta video">{% endraw %}
   </div>
 </div>
 
@@ -61,7 +61,7 @@ The app shows the current matchday’s Quiniela games with the odds (extracted f
 
 ## Technical implementation
 
-![technical_diagram](/Lambda-telegram-scraping-s3.jpg)
+![technical_diagram](/assets/images/architecture_qp.jpg)
 Project built entirely using the [AWS Free Tier](https://aws.amazon.com/free/).
 - **Python**
   - **AIOHTTP**: To perform HTTP requests asynchronously.
