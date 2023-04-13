@@ -3,11 +3,13 @@
   <h2 class="mb-3" style="color:{{ colors}}">{{ include.title  }}</h2>
   {% for skill in include.source %}
 
-  <div class="row justify-content-between align-items-center">
-    <ul class ="colored-bullets" style="--bullet-color: {{ colors }};">
-      <li><span>{{ skill.name | markdownify}}</span></li>
-    </ul>
-  </div>
+<div class="row justify-content-between align-items-center">
+  <ul class="colored-bullets" style="--bullet-color: {{ colors }};">
+    <li>
+      {{ skill.name | markdownify }}
+    </li>
+  </ul>
+</div>
   {% endfor %}
 
 </div>
