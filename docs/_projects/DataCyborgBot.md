@@ -31,7 +31,7 @@ A Lambda function runs several times a day with varying parameters, including th
 Next, the Lambda function compares the post ID with previously processed posts (stored in an S3 JSON file containing posts from the last three days) and selects only new posts for processing.<br><br>
 
 - For image-based posts, the image is processed with **ffmpeg** to meet Twitter's format and size requirements.
-- For video posts, **ffmpeg** is also used to combine and convert video and audio into the format expected by Twitter.<br><br>
+- For video posts, **ffmpeg** is also used to combine and convert video and audio into the [format expected by Twitter](https://twittercommunity.com/t/video-track-is-not-present-uploading-mp4/103570/4).<br><br>
 
 The text of the post is extracted and trimmed to fit within Twitter's 240-character limit, considering the inclusion of the post URL and a hashtag identifying the subreddit.<br><br>
 
@@ -44,7 +44,7 @@ Finally, the tweet is published using Tweepy. If the tweet is successfully publi
 Project built entirely using the [AWS Free Tier](https://aws.amazon.com/free/).
 - **Python**
   - **AIOHTTP**: To perform HTTP requests asynchronously.
-  - **FFmpeg**: To predict the revenue/collection of the Quiniela. Historical data has been used to train the model. 
-  - **Tweepy**: To predict the revenue/collection of the Quiniela. Historical data has been used to train the model. 
-- **Reddit API**: Way more cheaper than using AWS Aurora. 
-- **Twitter API**: Mobile app. 95% of the code equal for Android and IOS. 
+  - **FFmpeg**: To transform the media files downloaded from Reddit into a format compatible with Twitter. 
+  - **Tweepy**: To deal with the Twitter API.
+- **Reddit API**: To get the data from Reddit. 
+- **Twitter API**: To publish the data to Twitter (and to ensure that something is not posted twice). 
