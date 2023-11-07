@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CONDICIONES DE USO Y PRIVACIDAD"
-permalink: /privacy-policy
+permalink: /qp-privacy-policy
 ---
 
 # CONDICIONES DE USO Y PRIVACIDAD

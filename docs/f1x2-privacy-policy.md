@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "TERMS OF USE AND PRIVACY"
-permalink: /privacy-policy
+permalink: /f1x2-privacy-policy
 ---
 
 # TERMS OF USE AND PRIVACY
