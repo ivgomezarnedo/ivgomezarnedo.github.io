@@ -1,6 +1,19 @@
+- title: Senior Data Engineer, Modash, EU-Remote
+  from: June 2024
+  to: present
+  description: "Data Insights team. Designed and built from scratch the system that detects sponsored content and identifies its sponsor across Instagram, TikTok and YouTube.
+               It is the data behind Modash's [Collaborations product](https://www.modash.io/influencer-marketing-api/collaborations-api).
+               The PySpark pipelines (EMR, Airflow, Iceberg) process billions of posts, with millions of new ones every day, from >30M creators.
+               Every sponsor is mapped to its brand, building a database of >10M brands that grows every week.<br>
+               Later added an [LLM layer running on billions of posts](https://medium.com/@ivangomezarnedo/how-we-run-gemini-at-scale-across-billions-of-posts-2ff9ef1fc5bd)
+               that found 32% more sponsored posts on Instagram, 37% more on TikTok and twice as many on YouTube,
+               and cut its cost by moving from OpenAI to Gemini and then to open-weight models on AWS Bedrock.<br>
+               I also lead research initiatives on cost reduction, data quality and new datapoints, such as a language datapoint that identifies the main language each creator publishes in,
+               and a cross-platform creator identity graph. I run coding interviews for data engineering hires."
+
 - title: Lead Data Engineer, DeNexus, US-Remote
   from: September 2021
-  to: present
+  to: September 2025
   description: "One man army role. 
                [Designed, implemented, and deployed](https://medium.com/@ivangomezarnedo/building-our-data-platform-why-we-are-not-using-data-integration-tools-d57bdbfd503b) a Data Platform from scratch using [AWS and Databricks](https://medium.com/@ivangomezarnedo/building-our-data-platform-why-we-have-chosen-databricks-over-snowflake-3b26ffb1c282).
                Delta Lake and MLflow utilized to provide reliable and versioned data to models, with Silver and Golden tables ensuring data consistency.

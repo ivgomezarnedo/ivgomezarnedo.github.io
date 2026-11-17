@@ -1,4 +1,0 @@
-- https://bloggify.github.io/github-calendar/example/
-- Why the tooltip is not being shown? 
-- Maybe the answer is in the scripts.html file
-- https://youssefraafatnasry.github.io/portfolYOU/

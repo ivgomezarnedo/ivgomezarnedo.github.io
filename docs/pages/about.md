@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-I'm a Software Engineer with 6+ years of experience, specialized in Data Engineering processes.
+I'm a Software Engineer with 10+ years of experience, specialized in Data Engineering processes.
 <br>
 As the saying goes, "When one teaches, two learn" - I truly believe in [sharing my knowledge](/blog) from working on projects and overcoming challenges, benefiting both others and myself.
 <br>Accustomed to the dynamic and fast-paced environment of startups, I have developed the ability to adapt and effectively manage demanding workloads.
