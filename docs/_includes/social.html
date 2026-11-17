@@ -11,7 +11,7 @@
        style="color: #{{ unfocused_color }}"
        onMouseOver="this.style.color='#{{ service_data.color }}'"
        onMouseOut="this.style.color='#{{ unfocused_color }}'">
-      <i class="{{ service_data.icon }} fa-1x"></i>
+      {%- if service_data.svg -%}{{ service_data.svg }}{%- else -%}<i class="{{ service_data.icon }} fa-1x"></i>{%- endif -%}
     </a>
     {%- endif -%}
   
